@@ -1,0 +1,75 @@
+:root{
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+
+--Light-slate-blue-background-: hsl(252, 100%, 67%);
+--Light-royal-blue-background: hsl(241, 81%, 54%);
+
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+}
+body{
+  font-family: 'Hanken Grotesk';
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.superior{
+    background: linear-gradient(
+    to bottom,
+    var(--Light-slate-blue-background-),
+    var(--Light-royal-blue-background)
+  );
+  border-radius: 0 0 25px 25px;
+  text-align: center;
+}
+.rate{
+    background: linear-gradient(
+    to bottom,
+    var(--Violet-blue-circle),
+    var(--Persian-blue-circle)
+  );
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%;
+    margin: auto;
+}
+.superior h3{
+  color: var(--Pale-blue);
+  padding: 25px 0 25px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.superior h2{
+  color: var(--White);
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 25px 0 0 0;
+}
+.superior p{
+  color: var(--Pale-blue);
+  padding: 0 40px 40px 40px;
+  font-size: 16px;
+  margin: auto;
+}
+.rate h1{
+  color: var(--White);
+  font-size:50px;
+  margin: auto;
+  padding: 22px 0 0 0;
+  font-weight: 800;
+}
+.rate p{
+  color: var(--Light-lavender);
+  font-size: 16px;
+  margin: auto;
+}
